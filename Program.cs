@@ -15,9 +15,9 @@ carts.Add(new Cart() {Id = 1, Products = new List<Product>()});
 carts.Add(new Cart() {Id = 2, Products = new List<Product>()});
 carts.Add(new Cart() {Id = 3, Products = new List<Product>()});
 
-products.Add(new Product() {Id = 1, Name = "Banana", Price = 10, Quantity = 1});
-products.Add(new Product() {Id = 2, Name = "Maça", Price = 5, Quantity = 1});
-products.Add(new Product() {Id = 3, Name = "Pera", Price = 2, Quantity = 1});
+products.Add(new Product() {Id = 1, Name = "Banana", Price = 10, Quantity = 10});
+products.Add(new Product() {Id = 2, Name = "Maça", Price = 5, Quantity = 10});
+products.Add(new Product() {Id = 3, Name = "Pera", Price = 2, Quantity = 10});
 
 app.MapGet("/cart", () =>
 {
@@ -49,14 +49,19 @@ app.MapPost("cart/{cartId}/{productId}", (int cartId, int productId) =>
     {
         throw new Exception("Product Not Found");
     }
+    if (product.Quantity == 0)
+    {
+        throw new Exception("Product unavailable");
+    }
 
     var productAlreadyExist = cart.Products.Find(p => p.Id == productId);
     if (productAlreadyExist != null)
     {
-        product.AddOneQuantity();
+        product.RemoveOneQuantity();
     }
     else
     {
+        product.RemoveOneQuantity();
         cart.Products.Add(product);
     }
     return cart;
@@ -69,13 +74,11 @@ app.MapDelete("cart/{cartId}/{productId}", (int cartId, int productId) =>
     {
         throw new Exception("Cart not found");
     }
+
     var product = cart.Products.Find(p => p.Id == productId);
-    if (product != null && product.Quantity > 1)
+    if (product != null)
     {
-        product.RemoveOneQuantity();
-    }
-    else if(product != null)
-    {
+        product.AddOneQuantity();
         cart.Products.Remove(product);
     }
     return;
@@ -101,13 +104,12 @@ app.MapGet("cart/{cartId}/finish", (int cartId) =>
         throw new Exception("Cart not found");
     }
     decimal total = 0;
-    int qtd = 0;
     foreach (var product in cart.Products)
     {
-        total += product.Price * product.Quantity;
-        qtd += product.Quantity;
+        total += product.Price;
     }
-    return $"Total R${total}. Quantidade de produtos: {qtd}";
+    carts.Remove(cart);
+    return $"Total R${total}";
 });
 
 
