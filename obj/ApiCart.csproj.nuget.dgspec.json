@@ -1,28 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\josee\\Documents\\Projetos\\Teste-Desenvolvedor\\Nova pasta\\ApiCart\\ApiCart\\ApiCart.csproj": {}
+    "C:\\Users\\Pedro\\Desktop\\Test-mais\\Test-Mais\\ApiCart.csproj": {}
   },
   "projects": {
-    "C:\\Users\\josee\\Documents\\Projetos\\Teste-Desenvolvedor\\Nova pasta\\ApiCart\\ApiCart\\ApiCart.csproj": {
+    "C:\\Users\\Pedro\\Desktop\\Test-mais\\Test-Mais\\ApiCart.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\josee\\Documents\\Projetos\\Teste-Desenvolvedor\\Nova pasta\\ApiCart\\ApiCart\\ApiCart.csproj",
+        "projectUniqueName": "C:\\Users\\Pedro\\Desktop\\Test-mais\\Test-Mais\\ApiCart.csproj",
         "projectName": "ApiCart",
-        "projectPath": "C:\\Users\\josee\\Documents\\Projetos\\Teste-Desenvolvedor\\Nova pasta\\ApiCart\\ApiCart\\ApiCart.csproj",
-        "packagesPath": "C:\\Users\\josee\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\josee\\Documents\\Projetos\\Teste-Desenvolvedor\\Nova pasta\\ApiCart\\ApiCart\\obj\\",
+        "projectPath": "C:\\Users\\Pedro\\Desktop\\Test-mais\\Test-Mais\\ApiCart.csproj",
+        "packagesPath": "C:\\Users\\Pedro\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Pedro\\Desktop\\Test-mais\\Test-Mais\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\josee\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Pedro\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -52,7 +51,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -64,7 +64,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

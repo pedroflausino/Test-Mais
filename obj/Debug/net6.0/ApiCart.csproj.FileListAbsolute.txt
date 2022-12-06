@@ -52,3 +52,35 @@ C:\Users\josee\Documents\Projetos\Teste-Desenvolvedor\Nova pasta\ApiCart\ApiCart
 C:\Users\josee\Documents\Projetos\Teste-Desenvolvedor\Nova pasta\ApiCart\ApiCart\obj\Debug\net6.0\ApiCart.pdb
 C:\Users\josee\Documents\Projetos\Teste-Desenvolvedor\Nova pasta\ApiCart\ApiCart\obj\Debug\net6.0\ApiCart.genruntimeconfig.cache
 C:\Users\josee\Documents\Projetos\Teste-Desenvolvedor\Nova pasta\ApiCart\ApiCart\obj\Debug\net6.0\ref\ApiCart.dll
+C:\Users\Pedro\Desktop\Test-mais\Test-Mais\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\Pedro\Desktop\Test-mais\Test-Mais\bin\Debug\net6.0\appsettings.json
+C:\Users\Pedro\Desktop\Test-mais\Test-Mais\bin\Debug\net6.0\ApiCart.exe
+C:\Users\Pedro\Desktop\Test-mais\Test-Mais\bin\Debug\net6.0\ApiCart.deps.json
+C:\Users\Pedro\Desktop\Test-mais\Test-Mais\bin\Debug\net6.0\ApiCart.runtimeconfig.json
+C:\Users\Pedro\Desktop\Test-mais\Test-Mais\bin\Debug\net6.0\ApiCart.dll
+C:\Users\Pedro\Desktop\Test-mais\Test-Mais\bin\Debug\net6.0\ApiCart.pdb
+C:\Users\Pedro\Desktop\Test-mais\Test-Mais\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\Pedro\Desktop\Test-mais\Test-Mais\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Pedro\Desktop\Test-mais\Test-Mais\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Pedro\Desktop\Test-mais\Test-Mais\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Pedro\Desktop\Test-mais\Test-Mais\obj\Debug\net6.0\ApiCart.csproj.AssemblyReference.cache
+C:\Users\Pedro\Desktop\Test-mais\Test-Mais\obj\Debug\net6.0\ApiCart.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Pedro\Desktop\Test-mais\Test-Mais\obj\Debug\net6.0\ApiCart.AssemblyInfoInputs.cache
+C:\Users\Pedro\Desktop\Test-mais\Test-Mais\obj\Debug\net6.0\ApiCart.AssemblyInfo.cs
+C:\Users\Pedro\Desktop\Test-mais\Test-Mais\obj\Debug\net6.0\ApiCart.csproj.CoreCompileInputs.cache
+C:\Users\Pedro\Desktop\Test-mais\Test-Mais\obj\Debug\net6.0\ApiCart.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Pedro\Desktop\Test-mais\Test-Mais\obj\Debug\net6.0\ApiCart.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Pedro\Desktop\Test-mais\Test-Mais\obj\Debug\net6.0\staticwebassets\msbuild.ApiCart.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Pedro\Desktop\Test-mais\Test-Mais\obj\Debug\net6.0\staticwebassets\msbuild.build.ApiCart.props
+C:\Users\Pedro\Desktop\Test-mais\Test-Mais\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.ApiCart.props
+C:\Users\Pedro\Desktop\Test-mais\Test-Mais\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.ApiCart.props
+C:\Users\Pedro\Desktop\Test-mais\Test-Mais\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\Pedro\Desktop\Test-mais\Test-Mais\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\Pedro\Desktop\Test-mais\Test-Mais\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\Pedro\Desktop\Test-mais\Test-Mais\obj\Debug\net6.0\scopedcss\bundle\ApiCart.styles.css
+C:\Users\Pedro\Desktop\Test-mais\Test-Mais\obj\Debug\net6.0\ApiCart.csproj.CopyComplete
+C:\Users\Pedro\Desktop\Test-mais\Test-Mais\obj\Debug\net6.0\ApiCart.dll
+C:\Users\Pedro\Desktop\Test-mais\Test-Mais\obj\Debug\net6.0\refint\ApiCart.dll
+C:\Users\Pedro\Desktop\Test-mais\Test-Mais\obj\Debug\net6.0\ApiCart.pdb
+C:\Users\Pedro\Desktop\Test-mais\Test-Mais\obj\Debug\net6.0\ApiCart.genruntimeconfig.cache
+C:\Users\Pedro\Desktop\Test-mais\Test-Mais\obj\Debug\net6.0\ref\ApiCart.dll
